@@ -6,7 +6,7 @@
   "scripts": {
     "build:css": "tailwind build src/style.css -o build/style.css"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ['notes portal'],
+  "author": "Patrick Oluoch",
   "license": "ISC"
 }
