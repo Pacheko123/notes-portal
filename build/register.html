@@ -6,28 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create Account | Access free notes</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    
+        <style>
+            body *{
+                transition: all 0 0.4s;
+                /* font-family: 'Roboto', sans-serif; */
+            }
+        </style>
 </head>
 <body>
     <div class="flex justify-center ">
         <div class="mx-auto mt-20 w-1/4">
         <h1 class="text-xl font-medium">Enter Account Details</h1>
-        <p class="text-gray-500 text-sm mb-2 ">Join the large network of academic professionals to get started</p>
+        <p class="text-gray-500 text-sm mb-2 tracking-wide">Join the large network of academic professionals to get started</p>
         <form action="">
-            <h1>Your name</h1>
+            <h1>Your name<span><sup class="text-red-700 ml-1">*</sup></span></h1>
             <input type="text" name="first_name" id="first_name" class="border border-blue-400 text-gray-500 caret-blue-500 w-full h-8 mb-2">
             <h1 class="text-sm">Your Profession</h1>
             <input type="text" name="first_name" id="first_name" class="border border-blue-400 w-full h-8 mb-2">
-            <h1 class="text-sm">Your Phone Number</h1>
+            <h1 class="text-sm">Phone Number<span><sup class="text-red-500 ml-1">*</sup></span></h1>
             <input type="text" name="first_name" id="first_name" class="border border-blue-400 w-full h-8 mb-2">
-            <h1 class="text-sm">Your Password</h1>
+            <h1 class="text-sm">Password<span><sup class="text-red-500 ml-1">*</sup></span></h1>
             <input type="password" name="first_name" id="first_name" class="border border-blue-400 w-full h-8 mb-2">
-            <h1 class="text-sm">Confirm Password</h1>
+            <h1 class="text-sm">Confirm Password<span><sup class="text-red-500 ml-1">*</sup></span></h1>
             <input type="password" name="first_name" id="first_name" class="border border-blue-400 w-full h-8 mb-2">
             <input type="checkbox" name="" id=""> <p class="inline text-gray-500 text-sm">Accept terms and conditions of use</p>
             <button class="w-full bg-blue-500 text-white mt-2 h-10">CREATE ACCOUNT</button>
             
         </form>
-        <h1 class="text-right text-sm mt-2">Already have an account? <span class="text-blue-500  cursor-pointer">Sign In</span></h1>
+        <h1 class="text-right text-sm mt-2">Already have an account? <span class="text-blue-500  cursor-pointer"><a href="login.html">Sign In</a></span></h1>
         </div>
     </div>
 </body>
